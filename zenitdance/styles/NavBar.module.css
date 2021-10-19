@@ -1,0 +1,108 @@
+.all {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    align-content: center;
+    border-bottom: 3px red solid;
+    background-color: #F4F4F4;
+}
+
+.logo {
+    position: relative;
+    left: 8%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: 0 auto;
+    font-family: Abel;
+}
+
+.nav p {
+    margin: 0 10px;
+}
+
+.account {
+    margin-right: 8%;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    align-self: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    cursor: pointer;
+}
+
+.login {
+    text-shadow: 1px 1px black;
+    color: red
+}
+
+.createAccount {
+    font-family: Abel;
+    font-size: 13px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    font-family: Abel;
+    text-align: right;
+}
+
+.form input {
+    margin-left: 5px
+}
+
+.rollout {
+    float: right;
+    padding-right: 8%;
+    font-family: Abel;
+    text-align: right;
+    display: none;
+    background-color: #F4F4F4;
+    width: 100%;
+}
+
+.rollout h2 {
+    font-size: 20px;
+}
+
+.rollout div {
+    margin-top: 5px;
+}
+
+/* .registerMeDiv {
+    width: 169px
+} */
+
+.registerMe {
+    color: white;
+    padding: 8px 3%;
+    border: #B62126 solid 1px;
+    background-color: #B62126;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registerMe:hover {
+    color: red;
+    border: red solid 1px;
+    background-color: white;
+}
+
+.registerFormHide {
+    color: gray;
+    cursor: pointer;
+    margin-top: 80px;
+}
